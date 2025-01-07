@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+The <!DOCTYPE html> declaration in HTML specifies the document type and version of HTML being used. Its primary purpose is to ensure that the web browser renders the document in standards mode rather than quirks mode.
+
+Modes in Browsers
+Standards Mode: The browser uses the latest web standards for rendering the document.
+Quirks Mode: The browser emulates older, non-standard behavior to ensure backward compatibility with legacy websites.
+
+Why Use <!DOCTYPE html>?
+Ensure Consistent Rendering: It tells the browser to use standards mode for rendering, which provides consistent behavior across modern browsers.
+HTML5 Declaration: The <!DOCTYPE html> is the simplest and most modern doctype declaration. It’s used for HTML5 and ensures compatibility with new features.
