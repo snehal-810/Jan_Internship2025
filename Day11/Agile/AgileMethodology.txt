@@ -1,0 +1,61 @@
+What is Agile Methodology?
+-------------------------------------
+➡️ Agile is not a Framework, it's a Methodology.
+
+➡️ Methodology in Software Development, mean -> The Software development methodilogy is a process by which
+    developers design, implement and test new computer software project.
+➡️ Example: 🔯 How to develop and test project
+             🔯 How to release the project
+             🔯 How to manage roadmap and project milestone.
+
+➡️ The Agile methodology is a way to manage a Project by breaking it up into sevral phases.
+➡️ Step Example.
+    🔯 Make a plan for 15 days
+    🔯 Development for plan 
+    🔯 Test project according to the plan
+    🔯 Make feedback from the customer
+    🔯 Start Next plan.
+
+➡️ Agile Frameworks: 
+     🔯 SCRUM Framework
+     🔯 Kanabn Framework
+     🔯 Extreme Framework etc....
+
+➡️ Agile Principle: 
+     🔯 Satisfy the customer
+     🔯 Welcome changing requirements
+     🔯 Deliver working software frequently
+     🔯 Busines works with developers daily
+     🔯 Build projects around motivated individuals
+     🔯 FACE-TO-FACE Conversation Best.
+     🔯 Working Software Matters.
+     🔯 Constant Pace
+     🔯 High quality code is faster.
+     🔯 Self oraganizing teams deliver quality
+     🔯 Feedback loops used to improve.
+
+➡️ Agile Alternatives:
+    🔯 Waterfall Model
+    🔯 Rapid Model
+    🔯 Lean etc ....
+
+What is SCRUM Framework?
+----------------------------------------------
+➡️ SCRUM is a framework of agile methodolgy.
+➡️ Helps teams structure and manage their work through a set of values.
+
+➡️ Basic Rules of SCRUM:
+     🔯 Every SPRINT is Four Weeks or less in Duration
+     🔯 There are no breaks between SPRINT
+     🔯 The intesnion of every SPRINT is "Potentially Shippable Software"
+     🔯 Every SPRINT includes sprint Review for stakeholder feedback on the product.
+
+➡️ Roles in SCRUM:
+     🔯 Product Owner
+     🔯 SCRUM Master
+     🔯 Development Team Member
+
+What is SPRINT?
+-----------------------------------------
+➡️ A Sprint is a short, time-boxed period when a SCRUM team work to complete a set amount of work.
+➡️ Sprint duration should be less than 4 weeks.
