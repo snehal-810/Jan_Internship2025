@@ -1,0 +1,61 @@
+What is XMLHttpRequest?
+--------------------------------
+XMLHttpRequest (often abbreviated as XHR) is a JavaScript object provided by web browsers that allows you to interact with servers through HTTP requests. It is used to send and receive data from a server asynchronously without reloading the entire web page. This is a key technology behind AJAX (Asynchronous JavaScript and XML), which enables dynamic and interactive web applications.
+
+Key Features of XMLHttpRequest:
+---------------------------------------------
+1. Asynchronous Communication:
+
+You can send and receive data without interrupting the user's interaction with the page.
+It allows background data fetching.
+
+2. Supports Different HTTP Methods:
+
+GET: Fetch data from the server.
+POST: Send data to the server.
+Other methods like PUT, DELETE, etc., depending on the API.
+
+3. Works with Different Data Formats:
+
+Can handle responses in XML, JSON, HTML, or even plain text.
+
+4. Cross-Origin Resource Sharing (CORS):
+
+Enables secure cross-origin requests when allowed by the server.
+
+How It Works
+---------------------------------------
+The XMLHttpRequest object communicates with the server in a few steps:
+
+1. Create an XMLHttpRequest Object:
+
+var xhr = new XMLHttpRequest();
+
+2. Open a Connection to the Server:
+
+xhr.open('GET', 'https://example.com/api', true);
+The true specifies that the request is asynchronous.
+
+3. Send the Request:
+
+xhr.send();
+
+4. Handle the Response:
+
+The onreadystatechange event is triggered whenever the request's readyState changes. You can process the response when the readyState is 4 (completed).
+
+
+Ready States in XMLHttpRequest
+----------------------------------------
+The readyState property tracks the progress of the request:
+
+0 (UNSENT): The request is not initialized.
+1 (OPENED): The connection to the server is established.
+2 (HEADERS_RECEIVED): The server has received the request and is processing it.
+3 (LOADING): The request is in progress; the server is sending data.
+4 (DONE): The request is complete, and the response is ready.
+
+Why Use XMLHttpRequest Today?
+-----------------------------------------
+Although XMLHttpRequest was one of the first tools for asynchronous web requests, today it's largely replaced by modern APIs like fetch() and axios due to its more complex and verbose nature.
+However, XMLHttpRequest is still supported in all major browsers and is useful for understanding the evolution of asynchronous programming in JavaScript.

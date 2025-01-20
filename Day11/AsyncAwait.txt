@@ -1,0 +1,38 @@
+Async/Await 
+---------------------------------------
+Async/await is a feature in JavaScript that simplifies working with asynchronous code by making it look and behave like synchronous code. It was introduced in ES2017 (ECMAScript 8) and is built on top of Promises.
+
+async:
+-----------
+
+A keyword used to define an asynchronous function.
+It ensures that the function always returns a Promise.
+If a value is returned inside an async function, it is automatically wrapped in a resolved Promise.
+
+async function greet() {
+  return "Hello!";
+}
+
+greet().then((result) => console.log(result)); // Output: Hello!
+
+
+await:
+------------------
+
+A keyword used inside an async function to pause execution until a Promise is resolved or rejected.
+It can only be used inside an async function.
+When the Promise resolves, the value is returned, and the function continues execution
+
+async function fetchData() {
+  let data = await Promise.resolve("Fetched Data");
+  console.log(data); // Output: Fetched Data
+}
+
+fetchData();
+
+
+-> Asynchronous code written with async/await is easier to read and understand compared to using .then() and .catch() with Promises.
+
+-> Errors in async/await can be handled using a simple try...catch block.
+   This is more intuitive compared to chaining .catch() in Promises.
+
